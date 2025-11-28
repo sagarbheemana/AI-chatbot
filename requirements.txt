@@ -1,0 +1,35 @@
+langchain==0.1.0
+langchain-core==0.1.0
+langchain-community==0.0.13
+python-dotenv==1.0.0
+streamlit==1.28.0
+# AI Chatbot with LangChain & Ollama
+
+An AI-powered chatbot with semantic tool routing for mental wellness and academic support.
+
+## Features
+
+✨ **4 Specialized Tools:**
+- Positive Prompt - Motivation & encouragement
+- Negative Prompt - Reframe negative thoughts
+- Student Marks - Record grades & feedback
+- Crisis Support - Mental health resources
+
+⚡ **Smart Routing:**
+- Semantic understanding of user queries
+- Automatic tool selection
+- Real-time streaming responses
+
+🟢 **Local & Free:**
+- Runs on local Ollama (no API costs)
+- Unlimited queries
+- Works offline
+
+## Installation
+
+### 1. Install Ollama
+Download from [ollama.ai](https://ollama.ai)
+
+### 2. Install Python Packages
+```bash
+pip install -r requirements.txt
